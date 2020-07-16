@@ -1,0 +1,15 @@
+{
+  "name": "react-monorepo",
+  "private": "true",
+  "version": "1.0.0",
+  "description": "Exemplo de aplicacao React com estrutura Monorepo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+  	"packages/*"
+  ],
+  "author": "Alisson Lima",
+  "license": "MIT"
+}
